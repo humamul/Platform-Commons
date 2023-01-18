@@ -92,8 +92,10 @@ humam.app.jwtExpirationMs= 86400000
 <!-- ============================================  SWAGGER INTEGRATION ======================================================  -->
 ## Swagger UI
 ## Student Controller
-[![SwaggerUI]()]()
+[![SwaggerUI](https://drive.google.com/file/d/12xUaVjxoeMiqL_fGh6NBBLy4XOWXgO39/view?usp=share_link)](https://drive.google.com/file/d/12xUaVjxoeMiqL_fGh6NBBLy4XOWXgO39/view?usp=share_link)
 
 
 ## Course Controller
+![alt text](https://drive.google.com/file/d/12xUaVjxoeMiqL_fGh6NBBLy4XOWXgO39/view?usp=share_link)
+
 [![SwaggerUI]()]()
