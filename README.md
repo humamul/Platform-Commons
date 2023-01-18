@@ -14,7 +14,7 @@
 * Admin authorization and authenticaiton have been done using Spring Security. Validation has been considered over the input recieved from the client.<br>
 * At the time of applicaiton start, a default admin is created by the application using COMMANDLINE RUNNER <br>
 credentials:<br>
-    username: "humam.alam19@gmail.com"<br>  // this username will be of the handling SUPER ADMIN
+    username: "humam.alam19@gmail.com"  // this username will be of the handling SUPER ADMIN<br>
     Password: "password"<br>
 
 
@@ -91,11 +91,15 @@ humam.app.jwtExpirationMs= 86400000
 
 <!-- ============================================  SWAGGER INTEGRATION ======================================================  -->
 ## Swagger UI
-## Student Controller
-[![SwaggerUI](https://drive.google.com/file/d/12xUaVjxoeMiqL_fGh6NBBLy4XOWXgO39/view?usp=share_link)](https://drive.google.com/file/d/12xUaVjxoeMiqL_fGh6NBBLy4XOWXgO39/view?usp=share_link)
-
 
 ## Course Controller
-![alt text](https://drive.google.com/file/d/12xUaVjxoeMiqL_fGh6NBBLy4XOWXgO39/view?usp=share_link)
+![alt text](https://github.com/humamul/Platform-Commons/blob/main/uploadIMG/image%20(1).png)
 
-[![SwaggerUI]()]()
+## Student Controller
+![alt text](https://github.com/humamul/Platform-Commons/blob/main/uploadIMG/image%20(2).png)
+
+
+## Admin Controller
+![alt text](https://github.com/humamul/Platform-Commons/blob/main/uploadIMG/image.png)
+
+
