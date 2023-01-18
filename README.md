@@ -8,7 +8,8 @@
 
 <!-- ============================================  FEATURES ======================================================  -->
 
-  
+## ER-Diagram
+![ER-Diag](https://github.com/humamul/Platform-Commons/blob/main/uploadIMG/ER_Diagram.png)
 ## Features
 
 * Admin authorization and authenticaiton have been done using Spring Security. Validation has been considered over the input recieved from the client.<br>
