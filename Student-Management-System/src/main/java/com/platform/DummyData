@@ -1,0 +1,98 @@
+1. For Registering the Student
+ INPUT:
+	{
+	  "addresses": [
+	    {
+	      "addressType": "CORRESSPONDENCE",
+	      "area": "FaizGunj",
+	      "district": "Moradabad",
+	      "pincode": "24401",
+	      "state": "up"
+	    },{
+	      "addressType": "CURRENT",
+	      "area": "Laxmi Nagar",
+	      "district": "New Delhi",
+	      "pincode": "110032",
+	      "state": "Delhi"
+	    }
+	  ],
+	  "dateOfBirth": "2021-01-16",
+	  "email": "humam.alam19@gmail.com",
+	  "fatherName": "Mukhtar",
+	  "mobile": "6397919096",
+	  "motherName": "Farhana",
+	  "studentName": "Humam Ul Islam"
+	}
+OUTPUT:
+	{
+	  "unique_student_code": 1,
+	  "studentName": "Humam Ul Islam",
+	  "fatherName": "Mukhtar",
+	  "motherName": "Farhana",
+	  "email": "humam@gmail.com",
+	  "mobile": "6397919096",
+	  "dateOfBirth": "2021-01-16",
+	  "addresses": [
+	    {
+	      "addressId": 1,
+	      "area": "FaizGunj",
+	      "district": "Moradabad",
+	      "state": "up",
+	      "pincode": "24401",
+	      "addressType": "CORRESSPONDENCE"
+	    },
+	    {
+	      "addressId": 2,
+	      "area": "Laxmi Nagar",
+	      "district": "New Delhi",
+	      "state": "Delhi",
+	      "pincode": "110032",
+	      "addressType": "CURRENT"
+	    }
+	  ]
+	}
+
+2. For Updating the Student
+INPUT::
+	Request Param->student_code = 1
+	Request param-> dateOfBirth = 2021-01-16
+	
+	{
+	  "dateOfBirth": "2000-02-19",
+	  "email": "humam.alam19@gmail.com",
+	  "fatherName": "Mohd Mukhtar",
+	  "mobile": "8787878585",
+	  "motherName": "Farhana Kauser",
+	  "studentName": "Humam"
+	}
+	
+OUTPUT:
+	{
+	  "unique_student_code": 1,
+	  "studentName": "Humam Ul Islam",
+	  "fatherName": "Mohd Mukhtar",
+	  "motherName": "Farhana Kauser",
+	  "email": "humam.alam19@gmail.com",
+	  "mobile": "8787878585",
+	  "dateOfBirth": "2000-02-19",
+	  "addresses": [
+	    {
+	      "addressId": 1,
+	      "area": "FaizGunj",
+	      "district": "Moradabad",
+	      "state": "up",
+	      "pincode": "24401",
+	      "addressType": "CORRESSPONDENCE"
+	    },
+	    {
+	      "addressId": 2,
+	      "area": "Laxmi Nagar",
+	      "district": "New Delhi",
+	      "state": "Delhi",
+	      "pincode": "110032",
+	      "addressType": "CURRENT"
+	    }
+	  ]
+	}
+
+
